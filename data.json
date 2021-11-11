@@ -1,0 +1,51 @@
+{ "projects": [
+    {   "id": 0,
+        "project_name": "Project 1: Random quote generator",
+        "description" : "The app randomly displays famous quotes when a button is clicked. It also features auto-refresh of the quotes if no button was clicked.",
+        "technologies" : ["JavaScript", "HTML", "CSS", "Loops in JS", "Conditionals in JS"],
+        "live_link" : "https://karinabolat.github.io/project-1-random-generator/",
+        "github_link" :"https://github.com/karinabolat/project-1-random-generator",
+        "image_urls" : ["/static/images/project-1-image-square.png", "/static/images/project-1-image-landscape.png"],
+        "alt": "A photo of a website displaying a quote"
+    },
+    {
+        "id": 1,
+        "project_name": "Project 2: Data pagination and filtering",
+        "description" : "This project focuses on enhancing web page usability through implementing pagination, so that a user could easily navigate the website. The app divides a list of students into pages with 9 students on each page. In this case, the total number of students is 42, but the app allows any number. Dynamic name search also provides a user flexibility to find a certain student.",
+        "technologies" : ["JavaScript","HTML", "CSS", "DOM"],
+        "live_link" : "https://karinabolat.github.io/project-2-data-pagination/",
+        "github_link" :"https://github.com/karinabolat/project-2-data-pagination",
+        "image_urls" : ["/static/images/project-2-image-square.png", "/static/images/project-2-image-landscape.png"],
+        "alt": "A photo of a website displaying a list of students with their photo and contact information"
+    },
+    {
+        "id": 2,
+        "project_name": "Project 3: Interactive form",
+        "description" : "This project aims to address one of the common tasks, creating a registration form with customized input validation process. The form has typical fields, such as name, contact information, payment method, etc. The app provides real-time hints and conditional error messages to a user and prevents from signing up for conflicting events.",
+        "technologies" : ["JavaScript","HTML", "Website Accessibility", "Regular Expressions"],
+        "live_link" : "https://karinabolat.github.io/project-3-interactive-form/",
+        "github_link" :"https://github.com/karinabolat/project-3-interactive-form",
+        "image_urls" : ["/static/images/project-3-image-square.png", "/static/images/project-3-image-landscape.png"],
+        "alt": "A photo of a website with a displayed registartion page"
+    },
+    {
+        "id": 3,
+        "project_name": "Project 4: 'Phrase Hunter' game",
+        "description" : "As the name suggests, this is a word guessing game. The app randomly selects a movie title for the user to find out it. User has 5 'lives' to open all letters and win the game. There is an option of using both onscreen and physical keyboards.",
+        "technologies" : ["JavaScript", "Object-Oriented Programming", "Array Iteration", "CSS Animation"],
+        "live_link" : "https://karinabolat.github.io/project-4-phrase-hunter-game/",
+        "github_link" :"https://github.com/karinabolat/project-4-phrase-hunter-game",
+        "image_urls" : ["/static/images/project-4-image-square.png", "/static/images/project-4-image-landscape.png"],
+        "alt": "A photo of a website displaying a phrase guessing game"
+    },
+    {
+        "id": 4,
+        "project_name": "Project 5: Public API requests",
+        "description" : "Using JavaScript an employee directory is created with the help of a third-party API. The app uses Random User Generator API (https://randomuser.me/) to fetch data on 12 employees, including their location and contact information.",
+        "technologies" : ["JavaScript","HTML", "Git", "Ajax", "HTTP", "Fetch API", "Asynchronous programming"],
+        "live_link" : "https://karinabolat.github.io/project-5-public-api-requests/",
+        "github_link" :"https://github.com/karinabolat/project-5-public-api-requests",
+        "image_urls" : ["/static/images/project-5-image-square.png", "/static/images/project-5-image-landscape.png", "/static/images/project-5-image-landscape2.png"],
+        "alt": "A photo of a website displaying employee directory with employees' photo, names, location and email"
+    }
+]}

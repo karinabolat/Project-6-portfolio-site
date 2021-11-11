@@ -1,0 +1,25 @@
+{
+  "name": "project-6-portfolio-site",
+  "version": "1.0.0",
+  "description": "Techdegree project 6",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karinabolat/project-6-portfolio-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karinabolat/project-6-portfolio-site/issues"
+  },
+  "homepage": "https://github.com/karinabolat/project-6-portfolio-site#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}

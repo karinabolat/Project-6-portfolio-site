@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content
+    p
+        a(href='/')
+            span &larr;
+            |  Home
+    .error
+        h2= err.status
+        h3= err.message
+        p= err.stack

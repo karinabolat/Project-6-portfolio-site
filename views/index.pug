@@ -5,15 +5,19 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 My Portfolio
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p Below you can find the projects I worked on. Many of them are focused on enhancing user experience, such as project on data pagination or interactive form. Others are more concerned with certain tasks, like OOP in "Phrase Hunter" game or working with public API requests in project 5. I used JavaScript, HTML, CSS, Node and Express. For more details and technologies used, please click on the project.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-
+      each project in projects 
+        .cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.alt}`)
+            h5= `${project.project_name}`
       //- Use the Pug `each` iterator to loop over the projects in your data file  
       
         //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
