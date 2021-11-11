@@ -4,14 +4,21 @@ app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 const {projects} = require('./data.json');
 
+/**
+ * Route handlers
+ */
+
+// Index page route
 app.get('/', (req, res) => {
     res.render('index', {projects});
 })
 
+// About page route
 app.get('/about', (req, res) => {
     res.render('about');
 })
 
+// Projects page route
 app.get('/project/:id', (req, res, next) => {
     const idProject = req.params.id;
     const project = projects.find( ({ id }) => id === +idProject );
@@ -28,8 +35,11 @@ app.get('/project/:id', (req, res, next) => {
 })
 
 
-// Error handlers
+/**
+ * Error handlers
+ */
 
+// 404 error handler
 app.use((req, res, next) => {
     console.log("404 error handler");
     const err = new Error();
@@ -39,7 +49,7 @@ app.use((req, res, next) => {
     next(err);
 });
   
-
+// Global error handler
 app.use((err, req, res, next) => {
    if (err) {
        console.log("Global error handler");
